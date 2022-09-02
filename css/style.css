@@ -4,7 +4,7 @@
 
 body{
     color: aliceblue;
-    background-image: url("/img/body3.jpg");
+    background-image: url("https://1.bp.blogspot.com/-I-zbKgJjv6Q/YFIlPWcIqcI/AAAAAAAARKc/8sO5EnyECKszXQfXlVewId4CSrD3divEwCLcBGAsYHQ/s1600/cs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -56,7 +56,7 @@ h3{
 
     .banner{
         height: 30rem;
-        background-image: url("/img/cs.jpg");
+        background-image: url("https://i.pinimg.com/originals/4b/9e/62/4b9e627925ddc8f9ed8bfe2662fc373a.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
