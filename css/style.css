@@ -1,0 +1,86 @@
+:root{
+    --primey-color: #ff0000;
+}
+@font-face{
+    font-family: cs_regular;
+    src: url("/letras/BebasNeue-Regular.ttf");
+}
+
+body{
+    color: aliceblue;
+    background-image: url("/img/body3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    /* font-family: 'Staatliches', cursive; */
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    margin: 0%;
+    font-size: 25px;
+}
+h2{
+    margin: 3px;
+    font-size: 40px;
+}
+
+h3{
+    margin: 3px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 2; }
+    .div2 { grid-area: 1 / 2 / 6 / 5; }
+    .div3 { grid-area: 1 / 5 / 2 / 6; }
+
+    .info{
+        padding: 2rem;
+        border-radius: 3px;
+        border-color: rgb(255, 0, 0);
+        border-style: double;
+        width: auto;
+        height: auto;
+        background-color: #030003a8;
+    }
+
+    table{
+        margin: 2px;
+    }
+
+    .banner{
+        height: 30rem;
+        background-image: url("/img/cs.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    a{
+        font-style: none;
+    }
+
+img{
+   width: 100%;
+   height: 15rem; 
+}
+
+.img2{
+    width: 100%;
+    height: 18rem; 
+}
+
+    .dato{
+        padding: 3rem;
+        border-radius: 2px;
+        background-color: rgba(15, 15, 15, 0.527);
+    }
