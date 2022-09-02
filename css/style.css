@@ -1,14 +1,10 @@
 :root{
     --primey-color: #ff0000;
 }
-@font-face{
-    font-family: cs_regular;
-    src: url("/letras/BebasNeue-Regular.ttf");
-}
 
 body{
     color: aliceblue;
-    background-image: url("/img/body3.jpg");
+    background-image: url("../img/body3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -60,7 +56,7 @@ h3{
 
     .banner{
         height: 30rem;
-        background-image: url("/img/cs.jpg");
+        background-image: url("../img/cs.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
